@@ -79,7 +79,7 @@ int main(void)
     int key, y;
 
     printf("Press any key to launch the dice generator or press ESC button to terminate the program\n");
-    key = getch(); /*used to read a single character from the keyboard and store it in a variable key.*/
+    key = getchar(); /*used to read a single character from the keyboard and store it in a variable key.*/
 
     /* if the key is equal to ASCII value of ESC button i.e 27, terminate the program else execute the else statement*/
     if (key == 27){
@@ -92,7 +92,7 @@ int main(void)
         char again[5];
         /* See if user want to use the dice generator again*/
         printf("\nAnother need of a dice generator? Enter YES or NO: \n");
-        scanf("%s", &again);
+        scanf("%s", again);
 
         /* strcmp function takes two strings as arguments and compare these two strings lexicographically.
         a while statement to see if the char array again matches with string "yes"*/
@@ -100,7 +100,7 @@ int main(void)
         {
             startGenerator();
             printf("\nAnother need of a dice generator? Enter YES or NO: \n");
-            scanf("%s", &again);
+            scanf("%s", again);
         }
         }
 
