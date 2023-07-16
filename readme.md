@@ -12,15 +12,15 @@ Before running the program, ensure that you have a C compiler installed on your 
 
 2. Compile the code using a C compiler. For example, using GCC, run the following command in the terminal:
 
-  ```bash
-  gcc main.c -o dice_generator
-  ```
+    ```bash
+    gcc main.c -o dice_generator
+    ```
 
 3. Run the compiled executable:
 
-  ```bash
-  ./dice_generator
-  ```
+    ```bash
+    ./dice_generator
+    ```
 
 ## Usage
 
