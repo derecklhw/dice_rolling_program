@@ -13,7 +13,7 @@ Before running the program, ensure that you have a C compiler installed on your 
 2. Compile the code using a C compiler. For example, using GCC, run the following command in the terminal:
 
 ```bash
-gcc dice_generator.c -o dice_generator
+gcc main.c -o dice_generator
 ```
 
 3. Run the compiled executable:
