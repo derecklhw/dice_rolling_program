@@ -10,13 +10,17 @@ Before running the program, ensure that you have a C compiler installed on your 
 
 1. Clone the repository or copy the code into a C source file (e.g., `dice_generator.c`).
 
-2. Compile the code using a C compiler. For example, using GCC, run the following command in the terminal:
+   ```bash
+   git clone https://github.com/derecklhw/dice_rolling_program.git
+   ```
+
+3. Compile the code using a C compiler. For example, using GCC, run the following command in the terminal:
 
     ```bash
     gcc main.c -o dice_generator
     ```
 
-3. Run the compiled executable:
+4. Run the compiled executable:
 
     ```bash
     ./dice_generator
