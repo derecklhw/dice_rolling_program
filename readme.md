@@ -43,15 +43,3 @@ Before running the program, ensure that you have a C compiler installed on your 
 7. If you choose to continue, the program will repeat the dice rolls and result display. Repeat this step as desired.
 
 8. Once you choose to terminate the program or after multiple simulations, a "Thanks for your visit" message will be displayed, and the program will exit.
-
-## Notes
-
-- The program uses the `srand` function to set the seed value for the random number generator based on the computer's internal clock. This ensures different random sequences on each program execution.
-
-- The program validates the user input for the number of faces and throws, ensuring they are within the specified ranges. If invalid parameters are entered, the program will prompt for valid input.
-
-- The program uses the `rand` function to generate random numbers. The `%` operator is used to restrict the range of generated numbers to match the number of faces of the dice.
-
-- The program keeps track of the occurrences of each face using an array and calculates the percentage of occurrences for each face.
-
-- The program includes basic error handling for input validation but does not handle all possible error scenarios.
